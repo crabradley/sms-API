@@ -1,2 +1,386 @@
-# sms-API
-&lt;!DOCTYPE html> &lt;html lang="en"> &lt;head>      &lt;meta charset="utf-8">     &lt;title>ClientConfigBuilder - Documentation&lt;/title>       &lt;script src="scripts/prettify/prettify.js">&lt;/script>     &lt;script src="scripts/prettify/lang-css.js">&lt;/script>     &lt;!--[if lt IE 9]>       &lt;script src="//html5shiv.googlecode.com/svn/trunk/html5.js">&lt;/script>     &lt;![endif]-->     &lt;link type="text/css" rel="stylesheet" href="styles/prettify.css">     &lt;link type="text/css" rel="stylesheet" href="styles/jsdoc.css">     &lt;script src="scripts/nav.js" defer>&lt;/script>     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"> &lt;/head> &lt;body>  &lt;input type="checkbox" id="nav-trigger" class="nav-trigger" /> &lt;label for="nav-trigger" class="navicon-button x">   &lt;div class="navicon">&lt;/div> &lt;/label>  &lt;label for="nav-trigger" class="overlay">&lt;/label>  &lt;nav class="wrap">      &lt;input type="text" id="nav-search" placeholder="Search" />      &lt;h2>&lt;a href="index.html">Home&lt;/a>&lt;/h2>&lt;h3>Modules&lt;/h3>&lt;ul>&lt;li>&lt;a href="module-PDFToolsSDK.html">PDFToolsSDK&lt;/a>&lt;/li>&lt;/ul>&lt;h3>Classes&lt;/h3>&lt;ul>&lt;li>&lt;a href="ExecutionContext.html">ExecutionContext&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ExecutionContext.html#.create">create&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ClientConfig.html">ClientConfig&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ClientConfig.html#.clientConfigBuilder">clientConfigBuilder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ClientConfigBuilder.html">ClientConfigBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ClientConfigBuilder.html#withConnectTimeout">withConnectTimeout&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ClientConfigBuilder.html#withReadTimeout">withReadTimeout&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ClientConfigBuilder.html#fromFile">fromFile&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ClientConfigBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="FileRef.html">FileRef&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="FileRef.html#.createFromLocalFile">createFromLocalFile&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="FileRef.html#.createFromStream">createFromStream&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="FileRef.html#saveAsFile">saveAsFile&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="FileRef.html#writeToStream">writeToStream&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="Credentials.html">Credentials&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="Credentials.html#.serviceAccountCredentialsBuilder">serviceAccountCredentialsBuilder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ServiceAccountCredentialsBuilder.html">ServiceAccountCredentialsBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentialsBuilder.html#withClientId">withClientId&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentialsBuilder.html#withClientSecret">withClientSecret&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentialsBuilder.html#withPrivateKey">withPrivateKey&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentialsBuilder.html#withOrganizationId">withOrganizationId&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentialsBuilder.html#withAccountId">withAccountId&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentialsBuilder.html#fromFile">fromFile&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentialsBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ServiceAccountCredentials.html">ServiceAccountCredentials&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentials.html#getClientId">getClientId&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentials.html#getClientSecret">getClientSecret&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentials.html#getPrivateKey">getPrivateKey&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentials.html#getOrganizationId">getOrganizationId&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceAccountCredentials.html#getAccountId">getAccountId&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CombineFilesOperation.html">CombineFilesOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CombineFilesOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CombineFilesOperation.html#addInput">addInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CombineFilesOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CompressPDFOperation.html">CompressPDFOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CompressPDFOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CompressPDFOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CompressPDFOperation.html#setOptions">setOptions&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CompressPDFOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFOperation.html">CreatePDFOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFOperation.html#setOptions">setOptions&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="DeletePagesOperation.html">DeletePagesOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="DeletePagesOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="DeletePagesOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="DeletePagesOperation.html#setPageRanges">setPageRanges&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="DeletePagesOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="DocumentMergeOperation.html">DocumentMergeOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="DocumentMergeOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="DocumentMergeOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="DocumentMergeOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ExportPDFOperation.html">ExportPDFOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ExportPDFOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ExportPDFOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ExportPDFOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="InsertPagesOperation.html">InsertPagesOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="InsertPagesOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="InsertPagesOperation.html#setBaseInput">setBaseInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="InsertPagesOperation.html#addPagesToInsertAt">addPagesToInsertAt&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="InsertPagesOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="LinearizePDFOperation.html">LinearizePDFOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="LinearizePDFOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="LinearizePDFOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="LinearizePDFOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="OCROperation.html">OCROperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="OCROperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="OCROperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="OCROperation.html#setOptions">setOptions&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="OCROperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CompressPDFOptions.html">CompressPDFOptions&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CompressPDFOptions.html#.Builder">Builder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CompressPDFOptionsBuilder.html">CompressPDFOptionsBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CompressPDFOptionsBuilder.html#withCompressionLevel">withCompressionLevel&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CompressPDFOptionsBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFFromExcelOptions.html">CreatePDFFromExcelOptions&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromExcelOptions.html#.Builder">Builder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFFromExcelOptionsBuilder.html">CreatePDFFromExcelOptionsBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromExcelOptionsBuilder.html#withDocumentLanguage">withDocumentLanguage&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromExcelOptionsBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFFromHtmlOptions.html">CreatePDFFromHtmlOptions&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromHtmlOptions.html#.Builder">Builder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFFromHtmlOptionsBuilder.html">CreatePDFFromHtmlOptionsBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromHtmlOptionsBuilder.html#includesHeaderFooter">includesHeaderFooter&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromHtmlOptionsBuilder.html#withPageLayout">withPageLayout&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromHtmlOptionsBuilder.html#withDataToMerge">withDataToMerge&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromHtmlOptionsBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFFromPPTOptions.html">CreatePDFFromPPTOptions&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromPPTOptions.html#.Builder">Builder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFFromPPTOptionsBuilder.html">CreatePDFFromPPTOptionsBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromPPTOptionsBuilder.html#withDocumentLanguage">withDocumentLanguage&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromPPTOptionsBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFFromWordOptions.html">CreatePDFFromWordOptions&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromWordOptions.html#.Builder">Builder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="CreatePDFFromWordOptionsBuilder.html">CreatePDFFromWordOptionsBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromWordOptionsBuilder.html#withDocumentLanguage">withDocumentLanguage&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="CreatePDFFromWordOptionsBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="PageLayout.html">PageLayout&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="PageLayout.html#setPageSize">setPageSize&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="DocumentMergeOptions.html">DocumentMergeOptions&lt;/a>&lt;/li>&lt;li>&lt;a href="OCROptions.html">OCROptions&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="OCROptions.html#.Builder">Builder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="OCROptionsBuilder.html">OCROptionsBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="OCROptionsBuilder.html#withOcrType">withOcrType&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="OCROptionsBuilder.html#withOcrLang">withOcrLang&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="OCROptionsBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="PageRanges.html">PageRanges&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="PageRanges.html#addSinglePage">addSinglePage&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="PageRanges.html#addPageRange">addPageRange&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="PageRanges.html#addAllFrom">addAllFrom&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="PageRanges.html#addAll">addAll&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="PasswordProtectOptions.html">PasswordProtectOptions&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="PasswordProtectOptions.html#.Builder">Builder&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="PasswordProtectOptionsBuilder.html">PasswordProtectOptionsBuilder&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="PasswordProtectOptionsBuilder.html#setUserPassword">setUserPassword&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="PasswordProtectOptionsBuilder.html#setOwnerPassword">setOwnerPassword&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="PasswordProtectOptionsBuilder.html#setEncryptionAlgorithm">setEncryptionAlgorithm&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="PasswordProtectOptionsBuilder.html#setContentEncryption">setContentEncryption&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="PasswordProtectOptionsBuilder.html#setPermissions">setPermissions&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="PasswordProtectOptionsBuilder.html#build">build&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="Permissions.html">Permissions&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="Permissions.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="Permissions.html#getValues">getValues&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="Permissions.html#addPermission">addPermission&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ProtectPDFOperation.html">ProtectPDFOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ProtectPDFOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ProtectPDFOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ProtectPDFOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="RemoveProtectionOperation.html">RemoveProtectionOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="RemoveProtectionOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="RemoveProtectionOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="RemoveProtectionOperation.html#setPassword">setPassword&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="RemoveProtectionOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ReorderPagesOperation.html">ReorderPagesOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ReorderPagesOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ReorderPagesOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ReorderPagesOperation.html#setPagesOrder">setPagesOrder&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ReorderPagesOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ReplacePagesOperation.html">ReplacePagesOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ReplacePagesOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ReplacePagesOperation.html#setBaseInput">setBaseInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ReplacePagesOperation.html#addPagesForReplace">addPagesForReplace&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ReplacePagesOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="RotatePagesOperation.html">RotatePagesOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="RotatePagesOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="RotatePagesOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="RotatePagesOperation.html#setAngleToRotatePagesBy">setAngleToRotatePagesBy&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="RotatePagesOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="SplitPDFOperation.html">SplitPDFOperation&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="SplitPDFOperation.html#.createNew">createNew&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="SplitPDFOperation.html#setInput">setInput&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="SplitPDFOperation.html#setPageRanges">setPageRanges&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="SplitPDFOperation.html#setFileCount">setFileCount&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="SplitPDFOperation.html#setPageCount">setPageCount&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="SplitPDFOperation.html#execute">execute&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ServiceApiError.html">ServiceApiError&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceApiError.html#getStatusCode">getStatusCode&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceApiError.html#getErrorCode">getErrorCode&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceApiError.html#getMessage">getMessage&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceApiError.html#getRequestTrackingId">getRequestTrackingId&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceApiError.html#toString">toString&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;li>&lt;a href="ServiceUsageError.html">ServiceUsageError&lt;/a>&lt;ul class='methods'>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceUsageError.html#getStatusCode">getStatusCode&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceUsageError.html#getErrorCode">getErrorCode&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceUsageError.html#getMessage">getMessage&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceUsageError.html#getRequestTrackingId">getRequestTrackingId&lt;/a>&lt;/li>&lt;li data-type='method' style='display: none;'>&lt;a href="ServiceUsageError.html#toString">toString&lt;/a>&lt;/li>&lt;/ul>&lt;/li>&lt;/ul> &lt;/nav>  &lt;div id="main">      &lt;h1 class="page-title">ClientConfigBuilder&lt;/h1>        &lt;section>  &lt;header>          &lt;h2>         ClientConfigBuilder         &lt;/h2>              &lt;div class="class-description">&lt;p>Builds a &lt;a href="ClientConfig.html">ClientConfig&lt;/a> instance.&lt;/p>&lt;/div>   &lt;/header>  &lt;article>                          &lt;h3 class="subsection-title">Methods&lt;/h3>           &lt;h4 class="name" id="withConnectTimeout">&lt;span class="type-signature">&lt;/span>withConnectTimeout&lt;span class="signature">(connectTimeout&lt;span class="signature-attributes">non-null&lt;/span>)&lt;/span>&lt;span class="type-signature"> &amp;rarr; {&lt;a href="ClientConfigBuilder.html">ClientConfigBuilder&lt;/a>}&lt;/span>&lt;/h4>       &lt;dl class="details">                                 &lt;/dl>      &lt;div class="description">     &lt;p>Sets the connect timeout. It should be greater than zero.&lt;/p> &lt;/div>                &lt;h5>Parameters:&lt;/h5>   &lt;table class="params">     &lt;thead>     &lt;tr>          &lt;th>Name&lt;/th>           &lt;th>Type&lt;/th>              &lt;th class="last">Description&lt;/th>     &lt;/tr>     &lt;/thead>      &lt;tbody>           &lt;tr>                  &lt;td class="name">&lt;code>connectTimeout&lt;/code>&lt;/td>               &lt;td class="type">   &lt;span class="param-type">Number&lt;/span>                &lt;/td>                  &lt;td class="description last">&lt;p>Determines the timeout in milliseconds until a connection is established in the API calls. Default value is 10000 milliseconds&lt;/p>&lt;/td>         &lt;/tr>       &lt;/tbody> &lt;/table>                 &lt;h5>Returns:&lt;/h5>   &lt;div class="param-desc">     &lt;p>This Builder instance to add any additional parameters.&lt;/p> &lt;/div>    &lt;dl class="param-type">     &lt;dt>         Type     &lt;/dt>     &lt;dd>  &lt;span class="param-type">&lt;a href="ClientConfigBuilder.html">ClientConfigBuilder&lt;/a>&lt;/span>       &lt;/dd> &lt;/dl>               &lt;h4 class="name" id="withReadTimeout">&lt;span class="type-signature">&lt;/span>withReadTimeout&lt;span class="signature">(readTimeout&lt;span class="signature-attributes">non-null&lt;/span>)&lt;/span>&lt;span class="type-signature"> &amp;rarr; {&lt;a href="ClientConfigBuilder.html">ClientConfigBuilder&lt;/a>}&lt;/span>&lt;/h4>       &lt;dl class="details">                                 &lt;/dl>      &lt;div class="description">     &lt;p>Sets the read timeout. It should be greater than zero.&lt;/p> &lt;/div>                &lt;h5>Parameters:&lt;/h5>   &lt;table class="params">     &lt;thead>     &lt;tr>          &lt;th>Name&lt;/th>           &lt;th>Type&lt;/th>              &lt;th class="last">Description&lt;/th>     &lt;/tr>     &lt;/thead>      &lt;tbody>           &lt;tr>                  &lt;td class="name">&lt;code>readTimeout&lt;/code>&lt;/td>               &lt;td class="type">   &lt;span class="param-type">Number&lt;/span>                &lt;/td>                  &lt;td class="description last">&lt;p>Defines the read timeout in milliseconds, which is the timeout for waiting for data or, put differently, a maximum period inactivity between two consecutive data packets. Default value is 10000 milliseconds&lt;/p>&lt;/td>         &lt;/tr>       &lt;/tbody> &lt;/table>                 &lt;h5>Returns:&lt;/h5>   &lt;div class="param-desc">     &lt;p>This Builder instance to add any additional parameters.&lt;/p> &lt;/div>    &lt;dl class="param-type">     &lt;dt>         Type     &lt;/dt>     &lt;dd>  &lt;span class="param-type">&lt;a href="ClientConfigBuilder.html">ClientConfigBuilder&lt;/a>&lt;/span>       &lt;/dd> &lt;/dl>               &lt;h4 class="name" id="fromFile">&lt;span class="type-signature">&lt;/span>fromFile&lt;span class="signature">(clientConfigFilePath&lt;span class="signature-attributes">non-null&lt;/span>)&lt;/span>&lt;span class="type-signature"> &amp;rarr; {&lt;a href="ClientConfigBuilder.html">ClientConfigBuilder&lt;/a>}&lt;/span>&lt;/h4>       &lt;dl class="details">                                 &lt;/dl>      &lt;div class="description">     &lt;p>Sets the connect timeout and read timeout using the JSON client config file path. All the keys in the JSON structure are optional.&lt;/p> &lt;p> JSON structure: &lt;pre> {   "connectTimeout": "4000",   "readTimeout": "20000" } &lt;/pre> &lt;/div>                &lt;h5>Parameters:&lt;/h5>   &lt;table class="params">     &lt;thead>     &lt;tr>          &lt;th>Name&lt;/th>           &lt;th>Type&lt;/th>              &lt;th class="last">Description&lt;/th>     &lt;/tr>     &lt;/thead>      &lt;tbody>           &lt;tr>                  &lt;td class="name">&lt;code>clientConfigFilePath&lt;/code>&lt;/td>               &lt;td class="type">   &lt;span class="param-type">String&lt;/span>                &lt;/td>                  &lt;td class="description last">&lt;p>JSON client config file path&lt;/p>&lt;/td>         &lt;/tr>       &lt;/tbody> &lt;/table>                 &lt;h5>Returns:&lt;/h5>   &lt;div class="param-desc">     &lt;p>This Builder instance to add any additional parameters.&lt;/p> &lt;/div>    &lt;dl class="param-type">     &lt;dt>         Type     &lt;/dt>     &lt;dd>  &lt;span class="param-type">&lt;a href="ClientConfigBuilder.html">ClientConfigBuilder&lt;/a>&lt;/span>       &lt;/dd> &lt;/dl>               &lt;h4 class="name" id="build">&lt;span class="type-signature">&lt;/span>build&lt;span class="signature">()&lt;/span>&lt;span class="type-signature"> &amp;rarr; {&lt;a href="ClientConfig.html">ClientConfig&lt;/a>}&lt;/span>&lt;/h4>       &lt;dl class="details">                                 &lt;/dl>      &lt;div class="description">     &lt;p>Returns a new &lt;a href="ClientConfig.html">ClientConfig&lt;/a> instance built from the current state of this builder.&lt;/p> &lt;/div>                          &lt;h5>Returns:&lt;/h5>   &lt;div class="param-desc">     &lt;p>A ClientConfig instance.&lt;/p> &lt;/div>    &lt;dl class="param-type">     &lt;dt>         Type     &lt;/dt>     &lt;dd>  &lt;span class="param-type">&lt;a href="ClientConfig.html">ClientConfig&lt;/a>&lt;/span>       &lt;/dd> &lt;/dl>            &lt;/article>  &lt;/section>       &lt;/div>  &lt;br class="clear">  &lt;footer>     Documentation generated by &lt;a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3&lt;/a> using the &lt;a href="https://github.com/clenemt/docdash">docdash&lt;/a> theme. &lt;/footer>  &lt;script>prettyPrint();&lt;/script> &lt;script src="scripts/polyfill.js">&lt;/script> &lt;script src="scripts/linenumber.js">&lt;/script>  &lt;script src="scripts/search.js" defer>&lt;/script>   &lt;script src="scripts/collapse.js" defer>&lt;/script>       &lt;link type="text/css" rel="stylesheet" href="custom.css">  &lt;/body> &lt;/html> 
+# Samples for the PDF Tools Java SDK
+
+This sample project helps you get started with the PDF Tools Java SDK.
+
+The sample classes illustrate how to perform PDF-related actions (such as converting to and from the PDF format) using 
+the SDK. **Please note that the PDF Tools Java SDK supports only server side use cases.**
+
+## Prerequisites
+The sample application has the following requirements:
+* Java JDK : Version 8 or above.
+* Build Tool: The application requires Maven to be installed. Maven installation instructions can be found 
+[here](https://maven.apache.org/install.html).
+
+
+## Authentication Setup
+
+The credentials file and corresponding private key file for the samples is ```pdftools-api-credentials.json``` and ```private.key``` 
+respectively. Before the samples can be run, replace both the files with the ones present in the downloaded zip file at 
+the end of creation of credentials via [Get Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSdk) workflow.
+
+The SDK also supports providing the authentication credentials at runtime, without storing them in a config file. Please
+refer this [section](#create-a-pdf-file-from-a-docx-file-by-providing-in-memory-authentication-credentials) to 
+know more.
+
+## Quota Exhaustion
+
+If you receive ServiceUsageException during the Samples run, it means that trial credentials have exhausted their usage
+quota. Please [contact us](https://www.adobe.com/go/pdftoolsapi_requestform) to get paid credentials.
+
+## Build with maven
+
+Run the following command to build the project:
+```$xslt
+mvn clean install
+```
+
+Note that the PDF Tools SDK is listed as a dependency in the pom.xml and will be downloaded automatically.
+
+## A Note on Logging
+For logging, this SDK uses the [slf4j API](https://www.slf4j.org/) with a log4j2-slf4j binding. The logging configurations 
+are provided in ```src/main/resources/log4j2.properties```. Alternate bindings, if required, can be specified in pom.xml.
+
+## Running the samples
+
+The following sub-sections describe how to run the samples. Prior to running the samples, check that the configuration 
+file is set up as described above and that the project has been built.
+
+The code itself is in the ```com.adobe.platform.operation.samples``` package under the ```src/main/java/``` folder. Test 
+files used by the samples can be found in ```src/main/resources/```. When executed, all samples create an ```output``` 
+child folder under the working directory to store their results.
+
+### Create a PDF File
+These samples illustrate how to convert files of some formats to PDF. Refer the documentation of CreatePDFOperation.java 
+to see the list of all supported media types which can be converted to PDF.
+
+####  Create a PDF File From a DOCX File 
+
+The sample class CreatePDFFromDOCX creates a PDF file from a DOCX file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFFromDOCX 
+```
+
+####  Create a PDF File From a DOCX File with options 
+
+The sample class CreatePDFFromDOCXWithOptions creates a PDF file from a DOCX file by setting documentLanguage as
+the language of input file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFFromDOCXWithOptions 
+```
+
+####  Create a PDF File From a DOCX Input Stream
+
+The sample class CreatePDFFromDOCXInputStream creates a PDF file from a DOCX input stream.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFFromDOCXInputStream 
+```
+
+####  Create a PDF File From a DOCX File (Write to an OutputStream)
+
+The sample class CreatePDFFromDOCXToOutputStream creates a PDF file from a DOCX file. Instead of saving the result to a 
+local file, it writes the result to an output stream.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFFromDOCXToOutputStream 
+```
+
+
+####  Create a PDF File From a PPTX File 
+
+The sample class CreatePDFFromPPTX creates a PDF file from a PPTX file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFFromPPTX
+```
+
+#### Create a PDF File From Static HTML (via Zip Archive)
+
+The sample class CreatePDFFromStaticHTML creates a PDF file from a zip file containing the input HTML file and its resources. 
+Please refer the documentation of CreatePDFOperation.java to see instructions on the structure of the zip file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFFromStaticHTML 
+```
+
+#### Create a PDF File From Dynamic HTML (via Zip Archive)
+
+The sample class CreatePDFFromDynamicHTML converts a zip file, containing the input HTML file and its resources, along 
+with the input data to a PDF file. The input data is used by the javascript in the HTML file to manipulate the HTML DOM, 
+thus effectively updating the source HTML file. This mechanism can be used to provide data to the template HTML 
+dynamically and then, convert it into a PDF file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFFromDynamicHTML 
+```
+
+#### Create a PDF File From a DOCX File (By providing in-memory Authentication credentials)
+
+The sample class ```CreatePDFWithInMemoryAuthCredentials``` highlights how to provide in-memory auth credentials
+for performing an operation. This enables the clients to fetch the credentials from a secret server during runtime, 
+instead of storing them in a file.
+
+Before running the sample, authentication credentials need to be updated as per the instructions in the class. 
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFWithInMemoryAuthCredentials 
+```
+
+#### Create a PDF File From a DOCX File (By providing custom value for timeouts)
+
+The sample project CreatePDFWithCustomTimeouts highlights how to provide the custom value for connection timeout and socket timeout.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.createpdf.CreatePDFWithCustomTimeouts
+```
+
+### Export PDF To Other Formats
+These samples illustrate how to export PDF files to other formats. Refer to the documentation of ExportPDFOperation.java
+to see the list of supported export formats.
+
+#### Export a PDF File To a DOCX File 
+
+The sample class ExportPDFToDOCX converts a PDF file to a DOCX file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.exportpdf.ExportPDFToDOCX
+```
+
+#### Export a PDF File To an Image Format (JPEG)
+
+The sample class ExportPDFToJPEG converts a PDF file's pages to JPEG images. Note that the output is a zip archive 
+containing the individual images.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.exportpdf.ExportPDFToJPEG
+```
+
+### Combine PDF Files
+These samples illustrate how to combine multiple PDF files into a single PDF file.
+
+#### Combine Multiple PDF Files
+
+The sample class CombinePDF combines multiple PDF files into a single PDF file. The combined PDF file contains all pages
+of the source files.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.combinepdf.CombinePDF 
+```
+
+#### Combine Specific Pages of Multiple PDF Files
+
+The sample class CombinePDFWithPageRanges combines specific pages of multiple PDF files into into a single PDF file.
+ 
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.combinepdf.CombinePDFWithPageRanges 
+```
+
+### OCR PDF File
+
+These samples illustrate how to apply OCR(Optical Character Recognition) to a PDF file and convert it to a searchable copy of your PDF. 
+The supported input format is application/pdf.
+
+#### Convert a PDF File into a Searchable PDF File
+
+The sample class OcrPDF converts a PDF file into a searchable PDF file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.ocrpdf.OcrPDF
+```
+
+#### Convert a PDF File into a Searchable PDF File while keeping the original image
+
+The sample class OcrPDFWithOptions converts a PDF file to a searchable PDF file with maximum fidelity to the original 
+image and default en-us locale. Refer to the documentation of OCRSupportedLocale and OCRSupportedType to see 
+the list of supported OCR locales and OCR types.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.ocrpdf.OcrPDFWithOptions
+```
+
+### Compress PDF File
+
+These samples illustrate how to reduce the size of a PDF file.
+
+#### Reduce PDF File Size
+
+The sample class CompressPDF reduces the size of a PDF file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.compresspdf.CompressPDF
+```
+
+####  Reduce PDF File Size on the basis of Compression Level 
+
+The sample class CompressPDFWithOptions reduces the size of a PDF file on the basis of provided compression level.
+Refer to the documentation of CompressionLevel to see the list of supported compression levels.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.compresspdf.CompressPDFWithOptions 
+```
+
+### Linearize PDF File
+
+The sample illustrates how to convert a PDF file into a Linearized (also known as "web optimized") PDF file. Such PDF files are 
+optimized for incremental access in network environments.
+
+#### Convert a PDF File into a Web Optimized File
+
+The sample class LinearizePDF optimizes the PDF file for a faster Web View.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.linearizepdf.LinearizePDF
+```
+
+### Protect PDF File
+
+These samples illustrate how to secure a PDF file with a password.
+
+#### Convert a PDF File into a Password Protected PDF File
+
+The sample class ProtectPDF converts a PDF file into a password protected PDF file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.protectpdf.ProtectPDF
+```
+
+#### Protect a PDF File with an Owner Password and Permissions
+
+The sample class ProtectPDFWithOwnerPassword secures an input PDF file with owner password and allows certain access permissions 
+such as copying and editing the contents, and printing of the document at low resolution.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.protectpdf.ProtectPDFWithOwnerPassword
+```
+
+### Remove Protection
+
+The sample illustrates how to remove a password security from a PDF document.
+
+#### Remove Protection from a PDF File
+
+The sample class RemoveProtection removes a password security from a secured PDF document.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.removeprotection.RemoveProtection
+```
+
+### Rotate Pages
+
+The sample illustrates how to rotate pages in a PDF file.
+
+#### Rotate Pages in PDF File
+
+The sample class RotatePDFPages rotates specific pages in a PDF file.  
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.rotatepages.RotatePDFPages
+```
+
+### Delete Pages
+
+The sample illustrates how to delete pages in a PDF file.
+
+#### Delete Pages from PDF File
+
+The sample class DeletePDFPages removes specific pages from a PDF file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.deletepages.DeletePDFPages
+```
+
+### Reorder Pages
+
+The sample illustrates how to reorder the pages in a PDF file.
+
+#### Reorder Pages in PDF File
+
+The sample class ReorderPDFPages rearranges the pages of a PDF file according to the specified order.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.reorderpages.ReorderPDFPages
+```
+
+### Insert Pages
+
+The sample illustrates how to insert pages in a PDF file.
+
+#### Insert Pages into a PDF File
+
+The sample class InsertPDFPages inserts pages of multiple PDF files into a base PDF file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.insertpages.InsertPDFPages
+```
+
+### Replace Pages
+
+The sample illustrates how to replace pages of a PDF file.
+
+#### Replace PDF File Pages with Multiple PDF Files
+
+The sample class ReplacePDFPages replaces specific pages in a PDF file with pages from multiple PDF files.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.replacepages.ReplacePDFPages
+```
+
+### Split PDF File
+These samples illustrate how to split PDF file into multiple PDF files.
+
+#### Split PDF By Number of Pages
+
+The sample class SplitPDFByNumberOfPages splits input PDF into multiple PDF files on the basis of the maximum number
+of pages each of the output files can have.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.splitpdf.SplitPDFByNumberOfPages 
+```
+
+#### Split PDF Into Number of PDF Files
+
+The sample class SplitPDFIntoNumberOfFiles splits input PDF into multiple PDF files on the basis of the number
+of documents.
+ 
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.splitpdf.SplitPDFIntoNumberOfFiles 
+```
+
+#### Split PDF By Page Ranges
+
+The sample class SplitPDFByPageRanges splits input PDF into multiple PDF files on the basis of page ranges.
+Each page range corresponds to a single output file having the pages specified in the page range.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.splitpdf.SplitPDFByPageRanges 
+```
+
+### Document Merge
+
+Adobe Document Merge Operation allows you to produce high fidelity PDF and Word documents with dynamic data inputs.
+Using this operation, you can merge your JSON data with Word templates to create dynamic documents for 
+contracts and agreements, invoices, proposals, reports, forms, branded marketing documents and more.
+To know more about document generation and document templates, please checkout the [documentation](http://www.adobe.com/go/dcdocgen_overview_doc)
+
+#### Merge Document to DOCX
+
+The sample class MergeDocumentToDOCX merges the Word based document template with the input JSON data to generate 
+the output document in the DOCX format.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.documentmerge.MergeDocumentToDOCX 
+```
+
+#### Merge Document to PDF
+
+The sample class MergeDocumentToPDF merges the Word based document template with the input JSON data to generate
+the output document in the PDF format.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.documentmerge.MergeDocumentToPDF 
+```
+
+### Licensing
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE.md) for more information.
